@@ -69,4 +69,19 @@ if (passenger[a].passport == "")
  seat = a; 
  break;
  }
+ if (seat < 10)
+{
+printf("\n\t\t Enter First Name:");
+scanf_s("%s", passenger[seat].firstname);
+printf("\n\t\t Enter Surname:");
+scanf_s("%s", passenger[seat].surname);
+printf("\n\t\t Enter Passport Number:");
+scanf_s("%s", passenger[seat].passport);
+}
+else 
+{
+printf("\n\t\t Sorry, No seats are available");
+}
+pause();
+}
 
