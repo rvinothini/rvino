@@ -7,7 +7,7 @@ scanf("%d',&n);
 printf("Enter the fibnoaci number");
 for(i=1;i<n;i++)
 {
-temp=t1=t2;
+temp=t1+t2;
 t1=t2;
 t2=temp;
 }
