@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int i,n;
+int i,num;
 printf("Enter the of values");
-scanf("%d",&n);
+scanf("%d",&num);
 for(i=0;i<=10;i++)
 {
-printf("%d*%d",n.i,n*i);
+printf("%d*%d",num.i,num*i);
 return 0;
 }
 }
